@@ -1,2 +1,11 @@
-# quizApp
-The quiz app I have built to learn basics of React
+React Quiz App
+=========
+This is a quiz app created using React in order to learn it.
+
+The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### `npm start`
+
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+

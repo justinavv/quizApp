@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #004445;
+  color: #6FB98f;
+  display: flex;
+  justify-content: center;
+}
+
+.questions,
+.results{
+  margin-top: 10%;
+  width: 80vh;
+  text-align: center;
+}
+
+li{
+  list-style: none;
+  background-color: #2C7873;
+  margin: 2%;
+  line-height: 6vh;
+  border-radius: 7px; 
+  text-transform: uppercase;
+}
+
+.restartButton{
+  background-color: #2C7873;
+  margin: 2% 35%;
+  padding: 30px 10px;
+  border-radius: 7px; 
+}
+
+li:hover,
+.restartButton:hover
+  {
+    background-color: rgb(3, 45, 49);
+    cursor: pointer;
+}
